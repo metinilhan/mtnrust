@@ -1,8 +1,8 @@
 [package]
 name = "mtnrust"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
-description = "This en start for rust publish" 
+description = "This a start for rust publish done by Metin Ilhan, will be improved later" 
 homepage = "https://github.com/metinilhan/mtnrust"
 repository = "https://github.com/metinilhan/mtnrust" 
 keywords = ["metinilhan", "Mtn"]
