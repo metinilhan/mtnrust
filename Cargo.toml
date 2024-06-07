@@ -2,11 +2,12 @@
 name = "mtnrust"
 version = "0.1.0"
 edition = "2021"
+description = "This en start for rust publish" 
 homepage = "https://github.com/metinilhan/mtnrust"
 repository = "https://github.com/metinilhan/mtnrust" 
 keywords = ["metinilhan", "Mtn"]
 categories = ["game-engines"]
-License = "MIT"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
