@@ -1,7 +1,7 @@
 use std::fmt::{Debug, Error};
 
 struct Mtn {
-pub name: String,
+  pub name: String,
   age: i32,
   options: Choices,
 }
@@ -16,12 +16,10 @@ impl Debug for Mtn {
 }
 
 impl Mtn {
- fn getName(&self)->String
- {
-let s =  &self.name;
-s.to_string()
- }
-    
+  fn getName(&self) -> String {
+    let s = &self.name;
+    s.to_string()
+  }
 }
 enum Choices {
   A,
@@ -39,6 +37,10 @@ fn main() {
   };
 
   let ss: String = format!("{user:#?}");
+  mtn_test();
+  println!("MTn test lib {}", ss)
 }
 
-
+fn mtn_test() -> String {
+  return "Test".to_string();
+}
